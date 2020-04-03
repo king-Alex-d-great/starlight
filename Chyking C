@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+Int Main(){
+Int a;
+Int l;
+Int e;
+Int x;
+
+a=1;
+l=20;
+e=21;
+X=30;
+
+If(a>l){
+
+   Printf("this is my first C code on github and am excited because I had a misconception about the language./n
+   Always thought it was 'stressful', well here I am falling in love");
+      }
+Else if (e<10){
+
+ Print("the gods are definitely to blame"}
+}
