@@ -1,0 +1,28 @@
+
+What will be the result for these expressions?
+Alert(questions;
+5 > 4,
+"apple" > "pineapple",
+"2" > "12",
+undefined == null,
+undefined === null,
+null == "\n0\n",
+null === +"\n0\n";
+  )
+   
+Alert (My solution;
+True,
+False,
+False,
+True,
+False,
+False,
+False;
+)
+
+/* I failed the third one
+Because I felt the strings will first be converted to numbers
+That wasn't true
+Now I know they will be compared lexicographically
+Am glad I was corrected though
+*/
