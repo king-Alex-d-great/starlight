@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+  <script>
+    'use strict
+
+/*
+create a page that asks for a name and age then confirms name
+*/
+
+ Let userName = prompt ( ' whats your name cutie ? ', 'alexandra');
+    alert (` welcome $(userName) `);
+let age = prompt(' how old are you homie ? ', 21);
+    alert ( ` you are $(age) years old`);
+
+let userName = confirm (` are you $(userName) ? `);
+    alert (userName);
+</script>
+</body>
+</html>
+
