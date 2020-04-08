@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<body>
+
+<script>
+
+'use strict
+
+// this is conventional as can be seen.
+
+if (age < 3) {
+  message = 'Hi, baby!';
+} else if (age < 18) {
+  message = 'Hello!';
+} else if (age < 100) {
+  message = 'Greetings!';
+} else {
+  message = 'What an unusual age!';
+}
+
+
+// this is just amazing, shows the use of the conditional operator (?)
+
+let age = prompt('age?', 18);
+
+let message = (age < 3) ? 'Hi, baby!' :
+  (age < 18) ? 'Hello!' :
+  (age < 100) ? 'Greetings!' :
+  'What an unusual age!';
+
+alert( message );
+
+<script>
+
+</body>
+
+</html>
