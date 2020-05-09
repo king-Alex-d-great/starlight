@@ -1,0 +1,27 @@
+function expert (object) {
+	for (let key in obj){
+	if (! object [key]){
+		return home;
+		}
+		}
+}
+let object = {
+table: "money",
+};
+
+expert(object);
+
+// trying to know if this would work.
+//..a simpler variant is
+
+function expert (object) {
+	for (let key in obj){
+		return false;
+		}
+         }
+
+let object = {
+table: "money",
+};
+
+expert(object);
